@@ -5,7 +5,7 @@ public class App {
         Thread thread1 = new Thread(() -> fp.playNotes("do", "mi", "sol", "si", "do-octave"));
         Thread thread2 = new Thread(() ->fp.playNotes("re", "fa", "la", "do-octave"));
 
-        // Bonus part
+        // // Bonus part
         Thread twinkleThread = new Thread(() -> fp.playTwinkleTwinkle());
         
         thread1.start();
